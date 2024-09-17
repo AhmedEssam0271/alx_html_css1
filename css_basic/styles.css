@@ -61,14 +61,14 @@ fieldset,
 form,
 label,
 legend,
-table,
+/* table, */
 caption,
-tbody,
+/* tbody,
 tfoot,
 thead,
 tr,
 th,
-td,
+td, */
 article,
 aside,
 canvas,
@@ -138,10 +138,10 @@ q:after {
     content: none;
 }
 
-table {
+/* table {
     border-collapse: collapse;
     border-spacing: 0;
-}
+} */
 
 article,
 aside {
@@ -323,6 +323,38 @@ h5 {
 h6 {
     font-weight: bold;
     margin: 5px 0;
+}
+
+/* Table Designe */
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 125px;
+    text-align: center;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+thead {
+    background-color: #40403f;
+    color: white;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+tbody {
+    background-color: #eeeeeb;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100%;
+    vertical-align: middle;
 }
 
 @media (max-width: 800px) {
